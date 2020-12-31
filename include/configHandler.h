@@ -15,7 +15,7 @@ extern "C" {
 #endif
 
 typedef struct logger_config{
-    char* id;
+    char id[11];
     uint16_t interval;
     uint16_t samples;
 }logger_config_t;
